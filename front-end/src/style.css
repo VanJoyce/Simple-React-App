@@ -1,0 +1,45 @@
+.container-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-space {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-car-info {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.navigation {
+    background-color: #233b5d;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+}
+
+.navigation a {
+    display: flex;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: #2a4770;
+    color: white;
+}
+
+.page {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px 30px 20px 280px;
+    width: 100vh;
+}
+
+.date-picker-label {
+    width: 160px;
+}
